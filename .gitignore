@@ -1,0 +1,35 @@
+*.class
+
+#package file
+#没有jar，因为对接支付宝的时候需要
+*.war
+*.ear
+
+#kdiff3
+*.orig
+
+#maven
+target/
+
+#eclipse
+.settings/
+.project
+.classpatch
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#System
+.DS_Store
+Thumbs.db
